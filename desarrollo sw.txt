@@ -1,0 +1,23 @@
+Entorno
+python -m venv .venv
+.\.venv\Scripts\activate
+
+install
+django = pip install django
+
+pip freeze
+
+django-admin startproject django_proyect . "el . es para evitar crear otra carpeta"
+
+python manage.py runserver
+
+python manage.py migrate
+
+python manage.py migrate createsuperuser 
+
+ingles:LANGUAGE_CODE = 'en-us'
+
+python manage.py startapp pages  
+
+pip freeze > requirements.txt # crear todo lo necesario
+
